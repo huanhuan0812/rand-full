@@ -19,9 +19,7 @@ set(PROJECT_SOURCES
         RandomNumberGenerator.h
         SettingsDialog.h
         SettingsDialog.cpp
-        check.svg
-        chevron-down.svg
-        chevron-up.svg
+        icon.qrc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

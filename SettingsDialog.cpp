@@ -67,12 +67,12 @@ SettingsDialog::SettingsDialog(QWidget *parent)
             radius: 5px;
             font-size: 12px;
             height: 20px;
-            image: url(./chevron-down.svg);
+            image: url(:/chevron-down.svg);
         }
 
         QSpinBox::up-button{
             width: 20px;
-            image: url(./chevron-up.svg);
+            image: url(:/chevron-up.svg);
             height: 20px;
 
         }
@@ -112,7 +112,7 @@ SettingsDialog::SettingsDialog(QWidget *parent)
         QCheckBox::indicator:checked {
             background: #4a90e2;
             border-color: #357abd;
-            image: url(./check.svg);
+            image: url(:/check.svg);
         }
         QCheckBox::indicator:hover {
             border-color: #6c757d;
@@ -125,12 +125,12 @@ SettingsDialog::SettingsDialog(QWidget *parent)
         QScrollBar::up-arrow:vertical{
             width: 15px;
             height: 15px;
-            image: url(./chevron-up.svg);
+            image: url(:/chevron-up.svg);
         }
         QScrollBar::down-arrow:vertical{
             width: 15px;
             height: 15px;
-            image: url(./chevron-down.svg);
+            image: url(:/chevron-down.svg);
         }
         QScrollBar::up-arrow:hover, QScrollBar::down-arrow:hover {
             background-color: #e9ecef;
